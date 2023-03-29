@@ -1,0 +1,29 @@
+.hero {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: #f7fafc;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #3f3f3f;
+}
+
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
