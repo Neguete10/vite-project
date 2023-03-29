@@ -1,3 +1,3 @@
-const BASE_URL = `https://localhost:5000`;
+const BASE_URL = `https://server.neutroguard.com`;
 
 export default BASE_URL;
