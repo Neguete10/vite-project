@@ -2,9 +2,10 @@ import { useState } from "react";
 import "./Edit.css";
 import Papa from "papaparse";
 import axios from "axios";
+import BASE_URL from "../baseUrl";
 
 function Edit(props) {
-  const BASE_URL = "http://localhost:5000";
+  //const BASE_URL = "http://localhost:5000";
 
   const [fileChange, setFileChange] = useState(false);
 

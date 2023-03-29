@@ -2,9 +2,10 @@ import axios from "axios";
 import "./Patients.css";
 import { useState, useEffect } from "react";
 import Edit from "./Edit";
+import BASE_URL from "../baseUrl";
 
 export default function Patients(props) {
-  const BASE_URL = "http://localhost:5000";
+  //const BASE_URL = "http://localhost:5000";
 
   const { _id_root } = props;
   const [patients, setPatients] = useState([]);

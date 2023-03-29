@@ -3,10 +3,11 @@ import logo from "../images/NeutroGuard1.png";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
+import BASE_URL from "../baseUrl";
 
 export default function Entrar() {
 
-  const BASE_URL = "http://localhost:5000";
+  //const BASE_URL = "http://localhost:5000";
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");

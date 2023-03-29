@@ -3,9 +3,10 @@ import "./Exam.css";
 import Papa from "papaparse";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import BASE_URL from "../baseUrl";
 
 function Exam(props) {
-  const BASE_URL = "http://localhost:5000";
+  //const BASE_URL = "http://localhost:5000";
 
   const navigate = useNavigate();
 
