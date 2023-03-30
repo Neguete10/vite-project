@@ -7,8 +7,6 @@ import BASE_URL from "../baseUrl";
 
 export default function Entrar() {
 
-  //const BASE_URL = "http://localhost:5000";
-
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();

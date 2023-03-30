@@ -10,7 +10,6 @@ import { useLocation } from "react-router-dom";
 import BASE_URL from "../baseUrl";
 
 export default function User() {
-  //const BASE_URL = "http://localhost:5000";
 
   const [isLogged, setIsLogged] = useState(false);
   const [data, setData] = useState({
